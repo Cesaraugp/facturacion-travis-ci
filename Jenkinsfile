@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clonar el repositorio') {
             steps {
-                git url: 'https://github.com/Cesaraugp/facturacionElectronica-travis-ci.git', branch: 'master'
+                git url: 'https://github.com/Cesaraugp/facturacion-travis-ci.git', branch: 'master'
             }
         }
 
